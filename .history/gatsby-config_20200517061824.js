@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Roberlan Carvalho`,
     position: `Desenvolvedor Web`,
-    description: `Desenvolvedor Web fullstack na Tec North. Especializado em ReactJS, React Native, Angular, NodeJS e Python.`,
+    description: `Desenvolvedor Web na Tec North. Especializado em ReactJS, React Native, Angular, NodeJS e Python.`,
     author: `@roberlancarvalho`,
   },
   plugins: [

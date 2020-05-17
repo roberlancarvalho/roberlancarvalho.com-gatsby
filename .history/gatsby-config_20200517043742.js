@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Roberlan Carvalho`,
-    position: `Desenvolvedor Web`,
-    description: `Desenvolvedor Web fullstack na Tec North. Especializado em ReactJS, React Native, Angular, NodeJS e Python.`,
+    title: `My Blog`,
+    position: `Desenvolvedor web`,
+    description: `Um blog de teste em Gatsby.`,
     author: `@roberlancarvalho`,
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
+    `gatsby´plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

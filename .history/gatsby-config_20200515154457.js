@@ -1,12 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Roberlan Carvalho`,
-    position: `Desenvolvedor Web`,
-    description: `Desenvolvedor Web fullstack na Tec North. Especializado em ReactJS, React Native, Angular, NodeJS e Python.`,
-    author: `@roberlancarvalho`,
+    title: `Gatsby Default Starter`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
