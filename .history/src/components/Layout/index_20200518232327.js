@@ -8,7 +8,7 @@ import GlobalStyles from '../../styles/global'
 
 const Layout = ({ children }) => {
   return (
-    <S.LayoutWrapper> 
+    <S.LayoutWrapper>
       <GlobalStyles />
       <Sidebar />
       <S.LayoutMain>{children}</S.LayoutMain>
@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired, 
-}  
+  children: PropTypes.node.isRequired,
+}
 
 export default Layout
