@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
+  repo: roberlancarvalho/blog-profissional
   branch: master
-  site_domain: gatsby-course-will.netlify.com
+  site_domain: blog-dev-roberlan.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -15,27 +15,27 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
       - {
-          label: "Date",
+          label: "Data",
           name: "date",
           widget: "datetime",
           format: "YYYY-MM-DD hh:mm:ss",
         }
-      - { label: "image", name: "image", widget: "image" }
+      - { label: "imagem", name: "image", widget: "image" }
       - {
-        label: "Category",
+        label: "Categoria",
         name: "category",
         widget: "select",
-        options: ["jekyll", "css", "js", "html", "svg", "dev", "misc"]
+        options: ["site", "css", "js", "html", "svg", "dev", "misc"]
       }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Jekyll", value: "#B31917" },
+          { label: "Site", value: "#B31917" },
           { label: 'CSS', value: '#2DA0C3' },
           { label: 'JS', value: '#D6BA32' },
           { label: 'HTML', value: '#EB7728' },
@@ -44,4 +44,4 @@ collections:
           { label: 'Misc', value: '#7AAB13' },
         ]
       }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Corpo", name: "body", widget: "markdown" }

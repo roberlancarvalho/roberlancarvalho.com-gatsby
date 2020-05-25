@@ -66,19 +66,19 @@ const GlobalStyles = createGlobalStyle`
 
   body.dark {
     --borders: #38444d;
-    --texts: #8899a6;
+    --texts: #adb6c9;
     --postColor: #fff;
-    --highlight: #1fa1f2;
+    --highlight: #62b0d3;
     --mediumBackground: #192734;
-    --background: #16202c;
+    --background: #272e39;
     --white: #fff;
     --black: #222;
   }
   body.light {
     --borders: #dedede;
     --postColor: #111;
-    --texts: #555555;
-    --highlight: #1fa1f2;
+    --texts: #383838;
+    --highlight: #62b0d3;
     --mediumBackground: #f0f0f3;
     --background: #fff;
     --white: #fff;
