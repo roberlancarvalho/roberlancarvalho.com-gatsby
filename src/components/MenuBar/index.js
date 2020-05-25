@@ -12,7 +12,6 @@ import getThemeColor from "../../utils/getThemeColor"
 import * as S from "./styled"
 
 const MenuBar = () => {
-
     const [theme, setTheme] = useState(null)
     const [display, setDisplay] = useState(null)
 
@@ -22,17 +21,17 @@ const MenuBar = () => {
     useEffect(() => {
         setTheme(window.__theme)
         setDisplay(window.__display)
+
         window.__onThemeChange = () => setTheme(window.__theme)
         window.__onDisplayChange = () => setDisplay(window.__display)
     }, [])
 
     return (
-
         <S.MenuBarWrapper>
             <S.MenuBarGroup>
                 <S.MenuBarLink
                     to="/"
-                    paintDrip
+                    cover
                     direction="right"
                     bg={getThemeColor()}
                     duration={0.6}
@@ -44,7 +43,7 @@ const MenuBar = () => {
                 </S.MenuBarLink>
                 <S.MenuBarLink
                     to="/search/"
-                    paintDrip
+                    cover
                     direction="right"
                     bg={getThemeColor()}
                     duration={0.6}
@@ -55,7 +54,6 @@ const MenuBar = () => {
                     </S.MenuBarItem>
                 </S.MenuBarLink>
             </S.MenuBarGroup>
-
             <S.MenuBarGroup>
                 <S.MenuBarItem
                     title="Mudar o tema"
@@ -66,7 +64,6 @@ const MenuBar = () => {
                 >
                     <Light />
                 </S.MenuBarItem>
-
                 <S.MenuBarItem
                     title="Mudar visualização"
                     onClick={() => {
@@ -76,12 +73,11 @@ const MenuBar = () => {
                 >
                     {isListMode ? <Grid /> : <List />}
                 </S.MenuBarItem>
-
                 <S.MenuBarItem title="Ir para o Topo">
                     <Arrow />
                 </S.MenuBarItem>
             </S.MenuBarGroup>
-        </S.MenuBarWrapper >
+        </S.MenuBarWrapper>
     )
 }
 

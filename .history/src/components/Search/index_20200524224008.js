@@ -11,12 +11,15 @@ const algolia = {
     searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
     indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
 }
-
 const searchClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
 
 const Search = () => (
     <S.SearchWrapper>
-        <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
+        <InstantSearch
+            appId={algolia.appId}
+            apiKey={algolia.searchOnlyApiKey}
+            indexName={algolia.indexName}
+        >
             <SearchBox autofocus="autoFocus" translations={{ placeholder: "Pesquisar..." }} />
             <Stats
                 translations={{
