@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: roberlancarvalho/blog-profissional
+  branch: master
+  site_domain: blog-dev-roberlan.netlify.app
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - {
+          label: "Data",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "imagem", name: "image", widget: "image" }
+      - {
+        label: "Categoria",
+        name: "category",
+        widget: "select",
+        options: ["site", "css", "js", "html", "svg", "dev", "misc"]
+      }
+      - {
+        label: "Background",
+        name: "background",
+        widget: "select",
+        options: [
+          { label: "Site", value: "#B31917" },
+          { label: 'CSS', value: '#2DA0C3' },
+          { label: 'JS', value: '#D6BA32' },
+          { label: 'HTML', value: '#EB7728' },
+          { label: 'SVG', value: '#7D669E' },
+          { label: 'Dev', value: '#637a91' },
+          { label: 'Misc', value: '#7AAB13' },
+        ]
+      }
+      - { label: "Corpo", name: "body", widget: "markdown" }
