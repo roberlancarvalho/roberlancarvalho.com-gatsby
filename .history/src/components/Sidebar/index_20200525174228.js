@@ -8,7 +8,7 @@ import MenuLinks from '../MenuLinks'
 import * as S from './styled'
 
 const Sidebar = ({
-    site: { title, position, description },
+    site: { title, position },
     isMenuOpen,
     setIsMenuOpen
 }) => (
@@ -16,7 +16,6 @@ const Sidebar = ({
             <Profile
                 title={title}
                 position={position}
-                description={description}
                 isMobileHeader={false}
             />
             <S.SidebarLinksContainer>
@@ -30,7 +29,6 @@ Sidebar.propTypes = {
     site: propTypes.shape({
         title: propTypes.string.isRequired,
         position: propTypes.string.isRequired,
-        description: propTypes.string.isRequired,
     })
 }
 

@@ -67,7 +67,7 @@ export const PostItemTag = styled.div`
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1.5rem;
+  margin-left: 1.3rem;
 
   ${media.lessThan("large")`
   margin: 0;
@@ -79,7 +79,7 @@ export const PostItemDate = styled.time`
 `
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
 
