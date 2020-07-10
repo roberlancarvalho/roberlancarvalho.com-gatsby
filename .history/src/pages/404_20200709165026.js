@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from "gatsby"
-import styled from "styled-components"
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 
-import SEO from "../components/Seo"
-import GlobalStyles from "../styles/global"
+import SEO from '../components/Seo'
+import GlobalStyles from '../styles/global'
 
 const Container = styled.section`
   align-items: center;
