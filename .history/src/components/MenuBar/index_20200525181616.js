@@ -41,7 +41,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                     cover
                     direction="right"
                     bg={getThemeColor()}
-                    title="Voltar para o Início"
+                    title="Voltar para Home"
                     activeClassName="active"
                 >
                     <S.MenuBarItem>

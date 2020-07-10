@@ -19,7 +19,7 @@ const BlogList = props => {
 
   return (
     <Layout>
-      <SEO title="Roberlan Carvalho" />
+      <SEO title="Home" />
       <S.ListWrapper>
         {postList.map(
           ({
