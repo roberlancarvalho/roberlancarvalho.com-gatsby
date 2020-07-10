@@ -15,7 +15,7 @@ const links = [
     },
     {
         label: "Twitter",
-        url: `https://twitter.com/RoberlaCarvalh`,
+        url: `https://twitter.com/${handle}`,
     },
     {
         label: "Instagram",

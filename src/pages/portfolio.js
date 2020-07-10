@@ -26,7 +26,7 @@ const PortfolioPage = () => (
 
       <p>
       <a href="https://tecnorth.com.br/portfolio.html" target="_blank" rel="noopener noreferrer">
-          PORTFOLIO
+          PORTFÓLIO
         </a>
       </p>
     </MainContent>

@@ -21,14 +21,13 @@ const PortfolioPage = () => (
       </p>
 
       <p>
-        Curso Sistemas de Informação na Unicatólica de Quixadá.
-        Como desenvolvedor web, sou apaxinado por tecnologia. Minhas habilidades são: JavaScript, PHP,
-        Angular, React, Node e Python.
-        Trabalhar com TI, para mim não é um trabalho, é uma diversão.
+        Clique no link abaixo para conhecer o meu portfólio:
       </p>
 
       <p>
-        PORTÓLIO.
+      <a href="https://tecnorth.com.br/portfolio.html" target="_blank" rel="noopener noreferrer">
+          PORTFÓLIO
+        </a>
       </p>
     </MainContent>
   </Layout>
