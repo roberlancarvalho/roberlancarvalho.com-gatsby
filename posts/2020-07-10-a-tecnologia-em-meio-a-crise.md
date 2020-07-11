@@ -2,7 +2,7 @@
 title: A tecnologia em meio a crise
 description: As soluções pela TI em meio às crises
 date: 2020-07-10 07:54:23
-thumbnail: assets/img/criar-curso-online.jpg
+thumbnail: /assets/img/criar-curso-online.jpg
 category: outros
 background: "#7AAB13"
 ---
@@ -12,7 +12,7 @@ Já estamos há alguns meses de quarentena e por esse motivo, alguns profissiona
 
 E como diante de toda crise, vem a oportunidade, de aprender, de melhorar desempenhos, de gerenciamento, de organização e até de disciplina, nos vemos em período em que, ou aproveitamos o momento para aprendermos, ou simplesmente caímos na tentação da ociosidade e somos "agarrados" pela crise.
 
-![Sulucao](assets/img/curso-windows-cover.png "Solucao")
+![Sulucao](/assets/img/curso-windows-cover.png "Solucao")
 
 ### Solução em meio às crises
 
