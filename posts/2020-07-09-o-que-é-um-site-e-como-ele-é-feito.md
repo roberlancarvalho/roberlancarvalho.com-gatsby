@@ -3,6 +3,7 @@ title: O que é um site? E como ele é feito?
 description: Do que se trata um site e como é feito
 date: 2020-07-09 03:29:58
 image: /assets/img/lib-js-testes.jpg
+thumbnail: assets/img/lib-js-testes.jpg
 category: site
 background: "#B31917"
 ---
