@@ -6,7 +6,9 @@ thumbnail: /assets/img/lista-dicas-seo.jpg
 category: dev
 background: "#637a91"
 ---
-### Tudo começa na ideia
+### Ideia
+
+Tudo começa na ideia
 
 Para a criação ou desenvolvimento de qualquer coisa, tudo surge na ideia, amenos que você esteja criando algo que já existe
 
