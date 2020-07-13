@@ -20,7 +20,9 @@ Comece estudando (muito). Você pode encontrar diversos cursos gratuitos na inte
 
 ### O barato de programar
 
-Programar é divertido e bastante útil, além de proporcionar uma melhoria no seu raciocínio lógico. Por isso, antes de iniciar nos estudos de uma linguagem de programação específica, é de suma importância entender o que envolve a programação, sendo assim, vê-se a necessidade de aprender **lógica de programação**. Assim você irá ter embasamento, além de preparar o seu cérebro a programação de fato.
+Programar é divertido e bastante útil, além de proporcionar uma melhoria no seu raciocínio lógico. Por isso, antes de iniciar nos estudos de uma linguagem de programação específica, é de suma importância entender o que envolve a programação, sendo assim, vê-se a necessidade de aprender sobre **algoritmos** e **lógica de programação**. Assim você irá ter um embasamento importante, além de preparar o seu cérebro para a programação de fato.
+
+
 
 ### Etapas importantes
 
