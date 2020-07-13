@@ -39,7 +39,7 @@ export const ProfileAuthor = styled.h1`
   margin: 0.5rem auto 1.5rem;
 
   ${media.lessThan('large')`
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0 0 0 10px;
   `}
 `

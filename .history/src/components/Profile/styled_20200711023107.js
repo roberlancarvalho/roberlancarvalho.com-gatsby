@@ -61,6 +61,7 @@ export const ProfileDescription = styled.p`
   line-height: 1.4;
 
   ${media.lessThan('large')`
-    display: flex;
+  font-size: .2rem;
+  margin: 0 0 0 10px;
   `}
 `

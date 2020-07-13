@@ -19,16 +19,10 @@ const Profile = ({ title, position, description, isMobileHeader }) => {
         <Avatar />
         <S.ProfileAuthor>
           {title}
-          <S.ProfilePosition>
-            {position}
-          </S.ProfilePosition>
-
+          <S.ProfilePosition>{position}</S.ProfilePosition>
         </S.ProfileAuthor>
       </S.ProfileLink>
-
-      <S.ProfileDescription>
-        {description}
-      </S.ProfileDescription>
+      <S.ProfileDescription>{description}</S.ProfileDescription>
 
     </S.ProfileContainer>
   )
