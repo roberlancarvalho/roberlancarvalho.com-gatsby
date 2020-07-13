@@ -12,10 +12,10 @@ Muito tem se falado sobre **PWA**, o Progressive Web App, uma nova metodologia d
 
 * #### O que é PWA
 
-  PWA (Progressive Web App), basicamente é uma aplicação híbrida entre web e mobile. Com a possibilidade de o usuário para adicionar o site responsivo à sua homepage de aplicativos. Em outras palavras, é uma aplicação web com tecnologias que permitem termos a experiência de uso muito próxima da oferecida pelos mobile apps.\
-  Além do mais, elas permitem funcionalidades como: Push Notification, ícone na tela, home do smartphone, splash screen, processos rodando em background, suporte a funcionamento em modo Offline, acesso à câmera e galeria, acesso à geolocalização, acesso aos contatos, dentre outras.
-
-
+  PWA (Progressive Web App), basicamente é uma aplicação híbrida entre web e mobile. Com a possibilidade de o usuário adicionar o site responsivo à sua homepage de aplicativos. Em outras palavras, é uma aplicação web com tecnologias que permitem termos a experiência de uso muito próxima da oferecida pelos aplicativos móveis de smartphone.\
+  Além do mais, elas permitem funcionalidades como: Push Notification, ícone na tela, home do smartphone, splash screen, processos rodando em background, suporte a funcionamento em modo Offline, acesso à câmera e galeria, acesso à geolocalização, acesso aos contatos, dentre outras.\
+  \
+  Vejamos algumas das características:
 * #### Características
 
   * **Progressivo** - Funciona para qualquer usuário, independentemente do navegador escolhido, pois é criado com aprimoramento progressivo como princípio fundamental.
@@ -28,8 +28,6 @@ Muito tem se falado sobre **PWA**, o Progressive Web App, uma nova metodologia d
   * **Reenvolvente** - Facilita o reengajamento com recursos como notificações push.
   * **Instalável** - Permite que os usuários "guardem" os aplicativos mais úteis em suas telas iniciais sem precisar acessar uma loja de aplicativos.
   * **Linkável** - Compartilha facilmente por URL, não requer instalação complexa.
-
-
 * #### Vantagens
 
   1. Poucas alterações no código do site;
@@ -45,8 +43,6 @@ Muito tem se falado sobre **PWA**, o Progressive Web App, uma nova metodologia d
   3. Não é possível adicioná-los às lojas de aplicativos;
   4. Interface web pode perder performance em aplicações mais pesadas;
   5. Pode não passar a legitimidade de uma aplicação mobile;
-
-
 * #### O futuro da programação de aplicações web
 
-  Baseado principalmente em suas vantagens (listadas acima), o desenvolvimento de aplicações web utilizando a metodologia PWA, podemos obter uma nova maneira de desenvolver softwares para a web, como sites, lojas virtuais, blogs, sites informativos, como muitas outras coisas. O PWA não irá substituir a metodologia convencional de desenvolvimento web, mas poderá aliar-se na criação de novas soluções tecnológicas, pelo simples fato de facilitar a interação com o usuário. E esse é um dos principais motivos para ver a necessidade do uso do PWA, já que desenvolvemos aplicações, pensando principalmente nos seus possíveis usuários.
+  Baseado principalmente em suas vantagens (listadas acima), o desenvolvimento de aplicações web utilizando a metodologia PWA, podemos obter uma nova maneira de desenvolver softwares para a web, como sites, lojas virtuais, blogs, sites informativos, dentre muitas outras coisas. O PWA não irá substituir a metodologia convencional de desenvolvimento web, mas poderá aliar-se na criação de novas soluções tecnológicas, pelo simples fato de facilitar a interação com o usuário. E esse é um dos principais motivos para ver a necessidade do uso do PWA, já que desenvolvemos aplicações, pensando principalmente nos seus possíveis usuários.
