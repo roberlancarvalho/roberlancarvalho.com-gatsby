@@ -3,8 +3,8 @@ title: CMS próprio ou Wordpress?
 description: Dúvida sobre escolher ter o próprio CMS ou usar o Wordpress
 date: 2020-07-10 11:07:09
 thumbnail: /assets/img/o-que-é-um-cms.png
-category: artigo
-background: "#B31917"
+category: web
+background: "#8A7340"
 ---
 ### O que é um CMS?
 
