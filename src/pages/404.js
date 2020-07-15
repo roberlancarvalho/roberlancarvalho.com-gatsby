@@ -64,10 +64,10 @@ const Button = styled(Link)`
 
 const NotFoundPage = () => (
   <Container>
-    <SEO title="404: Not found" />
+    <SEO title="404: Não encontrada" />
     <GlobalStyles />
     <Title>404</Title>
-    <Text>Ué? Cadê? Parece que não tem o que você procura.</Text>
+    <Text>Ué? Página não encontrada.</Text>
     <Button to="/">De volta ao blog!</Button>
   </Container>
 )
