@@ -5,13 +5,14 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Roberlan Carvalho`,
-    description: `Um blog sobre, tecnologia, desenvolvimento web e outras coisas mais`,
+    description: `Um blog sobre tecnologia, desenvolvimento web e outras coisas mais`,
     position: `Desenvolvedor Web`,
     author: `@tecnorth`,
     siteUrl: `https://roberlancarvalho.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
+    `gatsby-plugin-google-analytics`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // needs to be the first to work with gatsby-remark-images
@@ -22,6 +23,15 @@ module.exports = {
         path: `${__dirname}/static/assets/img`,
       },
     },
+
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-172158139-1",
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -84,9 +94,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-netlify-cms`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-offline`
   ],
 }
