@@ -32,6 +32,6 @@ export const SocialLinksList = styled.ul`
 
 export const IconWrapper = styled.div`
   fill: #bbb;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 `

@@ -5,14 +5,15 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Roberlan Carvalho`,
-    description: `Um blog sobre tecnologia, desenvolvimento web e outras coisas mais`,
-    position: `Desenvolvedor Web`,
+    description: `Tudo sobre tecnologia, programaçõo e outras coisas mais`,
+    position: `Desenvolvedor Full Stack`,
     author: `@tecnorth`,
     siteUrl: `https://roberlancarvalho.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-google-analytics`,
+    `gatsby-plugin-google-adsense`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // needs to be the first to work with gatsby-remark-images
@@ -29,6 +30,13 @@ module.exports = {
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
         trackingId: "UA-172158139-1",
+      },
+    },
+
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2351736617081202`
       },
     },
 

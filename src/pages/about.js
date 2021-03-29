@@ -33,34 +33,39 @@ const AboutPage = () => (
 
       <p>
         Curso Sistemas de Informação na Unicatólica de Quixadá.
-        Como desenvolvedor web, sou apaxinado por tecnologia. Minhas habilidades são: JavaScript, PHP,
-        Angular, React, Node e Python.
+        Como desenvolvedor web, sou apaxinado por tecnologia. Minhas habilidades são: HTML, CSS, JavaScript, ReactJS, React Native e NodeJS.
         Trabalhar com TI, para mim não é um trabalho, é uma diversão.
         </p>
 
       <p>
-        Eu amo trabalhar em equipe e sou bem comunicativo. No meu tempo livre,
+        Eu gosto de trabalhar em equipe. No meu tempo livre,
         gosto de ensinar meus amigos e clientes sobre alguma coisa que aprendi, mais relacionado à tecologia,
-        acho que por isso nasceu esse blog.
+        acho que por isso nasceu esse blog. Adoro desafios.
+        </p>
+      <p>
+        Desenvolvo sites, lojas virtuais, portais e aplicações web, utilizando algumas das principais tecnologias do mercado.
         </p>
 
-      <h2>Habilidades</h2>
+      <h2>Habilidades:</h2>
 
       <ul>
-        <li>HTML e Template Languages</li>
-        <li>CSS (Stylus, Sass, Less, PostCSS)</li>
-        <li>Javascript</li>
-        <li>ReactJS / Redux / Flux</li>
-        <li>NodeJS</li>
-        <li>Python</li>
-        <li>MySQL - MongoDB</li>
+        <li>HTML e Template Languages;</li>
+        <li>CSS (Stylus, Sass, Less, PostCSS);</li>
+        <li>Javascript;</li>
+        <li>ReactJS / Redux / Flux;</li>
+        <li>React Native;</li>
+        <li>NodeJS.</li>
       </ul>
+
+      <p>
+        Tem alguma ideia interessante? Entre em contato!
+      </p>
 
       <h2>Contato:</h2>
 
       <p>
         Você pode entrar em contato comigo através de qualquer uma das minhas
-        redes sociais.
+        redes sociais:
         </p>
 
       <SocialLinks hideStyle />
