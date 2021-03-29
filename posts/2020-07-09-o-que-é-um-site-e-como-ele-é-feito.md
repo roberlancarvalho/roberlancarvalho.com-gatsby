@@ -18,7 +18,7 @@ Um site, criado de forma nativa, é desenvolvido em HTML (linguagem de marcaçã
 Veja abaixo um exemplo de uma página simples em HTML:
 
 ```razor
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
