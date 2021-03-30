@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Roberlan Carvalho`,
-    description: `Tudo sobre tecnologia, programaçõo e outras coisas mais`,
+    description: `Tudo sobre tecnologia, programação e outras coisas mais`,
     position: `Desenvolvedor Full Stack`,
     author: `@tecnorth`,
     siteUrl: `https://roberlancarvalho.com`,
