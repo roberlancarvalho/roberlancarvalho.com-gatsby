@@ -1,32 +1,58 @@
-import React from "react"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import algoliasearch from "algoliasearch/lite"
-import { InstantSearch, SearchBox, Hits, Stats } from "react-instantsearch-dom"
+import algoliasearch from 'algoliasearch/lite'
 
-import Hit from "./Hit"
-import * as S from "./styled"
+import {
+  InstantSearch,
+  SearchBox,
+  Hits,
+  Stats,
+  Configure
+} from 'react-instantsearch-dom'
 
-const algolia = {
-    appId: process.env.GATSBY_ALGOLIA_APP_ID,
-    searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
-    indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
-}
+import Hit from './Hit'
+import * as S from './styled'
 
-const searchClient = algoliasearch(algolia.appId, algolia.searchOnlyApiKey)
+const Search = props => {
+  const searchClient = algoliasearch(
+    props.algolia.appId,
+    props.algolia.searchOnlyApiKey
+  )
 
-const Search = () => (
+  return (
     <S.SearchWrapper>
-        <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
-            <SearchBox autoFocus="autofocus" translations={{ placeholder: "Pesquisar..." }} />
+      {props.algolia && props.algolia.appId && (
+        <>
+          <InstantSearch
+            searchClient={searchClient}
+            indexName={props.algolia.indexName}
+          >
+            <Configure hitsPerPage={200} distinct />
+            <SearchBox translations={{ placeholder: 'Pesquisar...' }} />
             <Stats
-                translations={{
-                    stats(nbHits, timeSpentMs) {
-                        return `${nbHits} resultados encontrados em ${timeSpentMs}ms`
-                    },
-                }}
+              translations={{
+                stats(nbHits, timeSpentMS) {
+                  return nbHits === 1
+                    ? `${nbHits} resultado encontrado em ${timeSpentMS}ms`
+                    : `${nbHits} resultados encontrados em ${timeSpentMS}ms`
+                }
+              }}
             />
             <Hits hitComponent={Hit} />
-        </InstantSearch>
+          </InstantSearch>
+          <S.SearchTitle>
+            Powered by Algolia
+            <S.AlgoliaIcon />
+          </S.SearchTitle>
+        </>
+      )}
     </S.SearchWrapper>
-)
+  )
+}
+
+Search.propTypes = {
+  algolia: PropTypes.object.isRequired
+}
+
 export default Search
