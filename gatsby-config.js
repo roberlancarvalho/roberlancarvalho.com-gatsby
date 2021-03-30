@@ -87,6 +87,7 @@ module.exports = {
         queries,
         chunkSize: 10000, // default: 1000
         enablePartialUpdates: true,// default: false
+        // Manter o plugin do Algolia na versão 0.5.0
       },
     },
     {
