@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
+import AdSense from 'react-adsense';
 
 import * as S from "../components/ListWrapper/styled"
 
@@ -29,16 +30,16 @@ const BlogList = props => {
               fields: { slug },
             },
           }) => (
-              <PostItem
-                slug={slug}
-                background={background}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
-                title={title}
-                description={description}
-              />
-            )
+            <PostItem
+              slug={slug}
+              background={background}
+              category={category}
+              date={date}
+              timeToRead={timeToRead}
+              title={title}
+              description={description}
+            />
+          )
         )}
       </S.ListWrapper>
 
@@ -50,7 +51,16 @@ const BlogList = props => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
+      <AdSense.Google
+        client='ca-pub-2351736617081202'
+        slot='6556937749'
+        style={{ display: 'block' }}
+        layout='auto'
+        format='fluid'
+      />
     </Layout>
+
+
   )
 }
 
