@@ -15,7 +15,7 @@ const SearchPage = props => {
     <Layout>
       <SEO
         title="Search"
-        description="Vai lá, não tenha medo. Busque por posts novos e bem antigos."
+        description="Faça sua busca e encontre artigos ou posts dentro do blog."
       />
       <Search algolia={algolia} />
     </Layout>

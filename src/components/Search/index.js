@@ -29,7 +29,7 @@ const Search = props => {
             indexName={props.algolia.indexName}
           >
             <Configure hitsPerPage={200} distinct />
-            <SearchBox translations={{ placeholder: 'Pesquisar...' }} />
+            <SearchBox autoFocus="autofocus" translations={{ placeholder: 'Pesquisar...' }} />
             <Stats
               translations={{
                 stats(nbHits, timeSpentMS) {
