@@ -1,1 +1,1 @@
-Blog disponível em: https://blog-dev-roberlan.netlify.app/
+Blog disponível em: https://roberlancarvalho.com/
