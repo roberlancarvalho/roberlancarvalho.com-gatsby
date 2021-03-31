@@ -7,7 +7,7 @@ module.exports = {
     title: `Roberlan Carvalho`,
     description: `Tudo sobre tecnologia, programação e outras coisas mais`,
     position: `Desenvolvedor Full Stack`,
-    author: `@tecnorth`,
+    author: `@roberlancarvalho`,
     siteUrl: `https://roberlancarvalho.com`,
   },
   plugins: [
