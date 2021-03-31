@@ -13,9 +13,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-google-analytics`,
-    `gatsby-plugin-google-adsense`,
+    // `gatsby-plugin-google-adsense`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-smoothscroll`,
     // needs to be the first to work with gatsby-remark-images
     {
       resolve: `gatsby-source-filesystem`,
@@ -33,12 +34,12 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-2351736617081202`
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-adsense`,
+    //   options: {
+    //     publisherId: `ca-pub-2351736617081202`
+    //   },
+    // },
 
     {
       resolve: `gatsby-source-filesystem`,

@@ -32,10 +32,10 @@ function SEO({ description, lang, meta, title, image }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
-        {
-          name: `aplication-name`,
-          content: 'Roberlan Carvalho Blog'
-        },
+        // {
+        //   name: `aplication-name`,
+        //   content: 'Roberlan Carvalho Blog'
+        // },
         {
           name: `description`,
           content: metaDescription,
