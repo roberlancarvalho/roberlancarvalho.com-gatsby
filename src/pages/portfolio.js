@@ -8,7 +8,7 @@ import { MainContent } from '../styles/base'
 const PortfolioPage = () => (
   <Layout>
     <SEO
-      title="Sobre mim"
+      title="Portfólio"
       description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
     />
     <MainContent>

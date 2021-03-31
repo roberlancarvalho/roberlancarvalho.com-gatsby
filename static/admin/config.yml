@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: roberlancarvalho/blog-profissional
+  repo: roberlancarvalho/roberlancarvalho.com
   branch: master
   site_domain: roberlancarvalho.com
 

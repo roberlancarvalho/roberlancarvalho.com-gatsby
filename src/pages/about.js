@@ -8,7 +8,7 @@ import { MainContent } from "../styles/base"
 const AboutPage = () => (
   <Layout>
     <SEO
-      title="Sobre mim"
+      title="Sobre Mim"
       description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
     />
     <MainContent>
