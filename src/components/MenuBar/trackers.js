@@ -8,11 +8,11 @@ export const searchClickTrack = () => {
   })
 }
 
-export const courseClickTrack = () => {
+export const portfolioClickTrack = () => {
   ReactGA.event({
-    category: 'cursos',
+    category: 'portfolio',
     action: 'click',
-    label: 'Link Curso na Menu Bar'
+    label: 'Link Portfolio na Menu Bar'
   })
 }
 
@@ -41,10 +41,10 @@ export const topClickTrack = () => {
   })
 }
 
-export const youTubeClickTrack = () => {
+export const aboutClickTrack = () => {
   ReactGA.event({
-    category: 'youtube',
+    category: 'about',
     action: 'click',
-    label: 'Link YouTube na Menu Bar'
+    label: 'Link Sobre Mim na Menu Bar'
   })
 }

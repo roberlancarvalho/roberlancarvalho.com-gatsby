@@ -3,8 +3,11 @@ import React, { useState, useEffect } from 'react'
 import { Home } from '@styled-icons/boxicons-solid/Home'
 import { SearchAlt2 as Search } from '@styled-icons/boxicons-regular/SearchAlt2'
 import { UpArrowAlt as Arrow } from '@styled-icons/boxicons-regular/UpArrowAlt'
-// import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
-// import { GraduationCap } from '@styled-icons/fa-solid/GraduationCap'
+import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
+import { Portfolio } from '@styled-icons/zondicons/Portfolio'
+import { AboutDotMe } from '@styled-icons/simple-icons/AboutDotMe'
+
+import { GraduationCap } from '@styled-icons/fa-solid/GraduationCap'
 import { LightBulb as Light } from '@styled-icons/entypo/LightBulb'
 import { Menu } from '@styled-icons/boxicons-regular/Menu'
 
@@ -61,36 +64,37 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                     </S.MenuBarItem>
                 </S.MenuBarLink>
 
-                {/* <S.MenuBarGroupDesktop>
+                <S.MenuBarGroupDesktop>
                     <S.MenuBarLink
-                        to="/cursos/"
+                        to="/about/"
                         cover
                         direction="right"
                         bg={getThemeColor()}
-                        title="Cursos"
+                        title="About"
                         activeClassName="active"
                     >
-                        <S.MenuBarItem onClick={() => GA.courseClickTrack()}>
-                            <GraduationCap />
-                            <S.MenuBarNotification />
+                        <S.MenuBarItem>
+                            <AboutDotMe />
+                            {/* <S.MenuBarNotification /> */}
+                        </S.MenuBarItem>
+
+                    </S.MenuBarLink>
+
+                    <S.MenuBarLink
+                        to="/portfolio/"
+                        cover
+                        direction="right"
+                        bg={getThemeColor()}
+                        title="Portfolio"
+                        activeClassName="active"
+                    >
+                        <S.MenuBarItem onClick={() => GA.portfolioClickTrack()}>
+                            <Portfolio />
+                            {/* <S.MenuBarNotification /> */}
                         </S.MenuBarItem>
                     </S.MenuBarLink>
 
-                    <S.MenuBarExternalLink
-                        title="YouTube Videos"
-                        href="https://www.youtube.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={() => GA.youTubeClickTrack()}
-                    >
-                        <S.MenuBarItem>
-                            <Youtube />
-                            <S.MenuBarNotification />
-                        </S.MenuBarItem>
-                        
-                    </S.MenuBarExternalLink>
-
-                </S.MenuBarGroupDesktop> */}
+                </S.MenuBarGroupDesktop>
             </S.MenuBarGroup>
 
             <S.MenuBarGroupMobile>
