@@ -77,7 +77,7 @@ const PortfolioPage = () => (
   <Layout>
     <SEO
       title="Portfólio"
-      description="Saiba um pouco mais sobre o desenvolvedor por trás deste blog."
+      description="Conheça alguns dos meus projetos"
     />
 
     <MainContent>

@@ -2,13 +2,11 @@ import React, { useState, useEffect } from 'react'
 
 import { Home } from '@styled-icons/boxicons-solid/Home'
 import { SearchAlt2 as Search } from '@styled-icons/boxicons-regular/SearchAlt2'
-import { UpArrowAlt as Arrow } from '@styled-icons/boxicons-regular/UpArrowAlt'
-import { Youtube } from '@styled-icons/boxicons-logos/Youtube'
-import { Portfolio } from '@styled-icons/zondicons/Portfolio'
+import { CircleHalfFill } from '@styled-icons/fluentui-system-filled/CircleHalfFill'
+import { ChevronUpCircle } from '@styled-icons/boxicons-solid/ChevronUpCircle'
+import { Codepen } from '@styled-icons/boxicons-logos/Codepen'
 import { AboutDotMe } from '@styled-icons/simple-icons/AboutDotMe'
-
-import { GraduationCap } from '@styled-icons/fa-solid/GraduationCap'
-import { LightBulb as Light } from '@styled-icons/entypo/LightBulb'
+// import { LightBulb as Light } from '@styled-icons/entypo/LightBulb'
 import { Menu } from '@styled-icons/boxicons-regular/Menu'
 
 import getThemeColor from '../../utils/getThemeColor'
@@ -89,7 +87,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                         activeClassName="active"
                     >
                         <S.MenuBarItem onClick={() => GA.portfolioClickTrack()}>
-                            <Portfolio />
+                            <Codepen />
                             {/* <S.MenuBarNotification /> */}
                         </S.MenuBarItem>
                     </S.MenuBarLink>
@@ -122,7 +120,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                     className={theme}
                     isDarkMode={isDarkMode}
                 >
-                    <Light />
+                    <CircleHalfFill />
                 </S.MenuBarItem>
                 <S.MenuBarItem
                     title="Ir para o Topo"
@@ -131,7 +129,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                         window.scroll({ top: 0, behavior: 'smooth' })
                     }}
                 >
-                    <Arrow />
+                    <ChevronUpCircle />
                 </S.MenuBarItem>
             </S.MenuBarGroup>
         </S.MenuBarWrapper>

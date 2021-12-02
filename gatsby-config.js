@@ -48,6 +48,23 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
+    /* CONFIGURAÇÃO DO PLUGIN */
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // Diretório com os JSON com as palavras a serem traduzidas
+        path: `${__dirname}/src/intl`,
+        // Idiomas suportados
+        languages: [`pt`, `en`],
+        // Idioma padrão
+        defaultLanguage: `pt`,
+        // Redireciona para `/pt` ao entrar na rota `/`
+        redirect: false,
+      },
+    },
+    /* FIM DA CONFIGURAÇÃO */
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
