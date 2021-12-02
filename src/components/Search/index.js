@@ -25,13 +25,12 @@ const Search = props => {
       {props.algolia && props.algolia.appId && (
         <>
           <InstantSearch
-            autofocus
             searchClient={searchClient}
             indexName={props.algolia.indexName}
           >
             <Configure hitsPerPage={200} distinct />
             <SearchBox
-              autoFocus="autofocus"
+              autoFocus="true"
               translations={{ placeholder: "Pesquisar..." }}
             />
             <Stats
