@@ -30,7 +30,7 @@ const Search = props => {
           >
             <Configure hitsPerPage={200} distinct />
             <SearchBox
-              autoFocus="true"
+              autoFocus={true}
               translations={{ placeholder: "Pesquisar..." }}
             />
             <Stats

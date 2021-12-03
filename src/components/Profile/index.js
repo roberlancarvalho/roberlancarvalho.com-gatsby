@@ -37,7 +37,7 @@ const Profile = ({ title, position, description, isMobileHeader }) => {
 Profile.propTypes = {
   title: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
 }
 
 export default Profile

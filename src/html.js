@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body {...props.bodyAttributes} className="dark" >
+      <body {...props.bodyAttributes} className="dark">
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -64,11 +64,10 @@ export default function HTML(props) {
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{
-            __html: props.body
+            __html: props.body,
           }}
         />
         {props.postBodyComponents}
-
       </body>
     </html>
   )

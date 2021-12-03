@@ -8,7 +8,7 @@ import Pagination from "../components/Pagination"
 
 import * as S from "../components/ListWrapper/styled"
 
-const BlogList = props => {
+function BlogList(props) {
   const postList = props.data.allMarkdownRemark.edges
 
   const { currentPage, numPages } = props.pageContext
@@ -24,9 +24,7 @@ const BlogList = props => {
         {postList.map(
           ({
             node: {
-              frontmatter: { background, category, date, description, title },
-              timeToRead,
-              fields: { slug },
+              frontmatter: { background, category, date, description, title }, timeToRead, fields: { slug },
             },
           }) => (
             <PostItem
@@ -36,8 +34,7 @@ const BlogList = props => {
               date={date}
               timeToRead={timeToRead}
               title={title}
-              description={description}
-            />
+              description={description} />
           )
         )}
       </S.ListWrapper>
@@ -48,8 +45,7 @@ const BlogList = props => {
         currentPage={currentPage}
         numPages={numPages}
         prevPage={prevPage}
-        nextPage={nextPage}
-      />
+        nextPage={nextPage} />
     </Layout>
 
   )
