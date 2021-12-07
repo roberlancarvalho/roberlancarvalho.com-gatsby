@@ -26,7 +26,8 @@ Veja abaixo um exemplo de uma página simples em HTML:
   <title>Site</title>
 </head>
 <body>
-  Conteúdo
+  <h1>Nome do Site</h1>
+  <p>Conteúdo do site</p>
 </body>
 </html>
 ```
