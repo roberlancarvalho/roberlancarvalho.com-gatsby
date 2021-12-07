@@ -24,7 +24,9 @@ function BlogList(props) {
         {postList.map(
           ({
             node: {
-              frontmatter: { background, category, date, description, title }, timeToRead, fields: { slug },
+              frontmatter: { background, category, date, description, title },
+              timeToRead,
+              fields: { slug },
             },
           }) => (
             <PostItem
@@ -34,7 +36,8 @@ function BlogList(props) {
               date={date}
               timeToRead={timeToRead}
               title={title}
-              description={description} />
+              description={description}
+            />
           )
         )}
       </S.ListWrapper>
@@ -45,9 +48,9 @@ function BlogList(props) {
         currentPage={currentPage}
         numPages={numPages}
         prevPage={prevPage}
-        nextPage={nextPage} />
+        nextPage={nextPage}
+      />
     </Layout>
-
   )
 }
 
