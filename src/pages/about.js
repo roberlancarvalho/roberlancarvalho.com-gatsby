@@ -15,18 +15,18 @@ const AboutPage = () => (
       <h1>Sobre mim</h1>
       <p>
         Olá! Sou Roberlan Oliveira de Carvalho, nasci em Mombaça-CE. Sou
-        desenvolvedor Full Stack e fundador da{" "}
+        desenvolvedor Full Stack; Empreendedor; Músico; Fundador da{" "}
         <a
           href="https://tecnorth.com.br/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tec North.
+          Tec North e fotógrafo nas horas vagas.
         </a>
       </p>
 
       <p>
-        Curso Sistemas de Informação na Unicatólica de Quixadá. Como
+        Graduando em Sistemas de Informação na Unicatólica de Quixadá. Como
         desenvolvedor web, sou apaxinado por tecnologia. Minhas habilidades são:
         HTML, CSS, JavaScript, ReactJS, AngularJS React Native e NodeJS.
         Trabalhar com TI, para mim não é um trabalho, é uma diversão.
