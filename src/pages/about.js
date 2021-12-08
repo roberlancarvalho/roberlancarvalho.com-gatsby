@@ -21,8 +21,8 @@ const AboutPage = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tec North e fotógrafo nas horas vagas.
-        </a>
+          Tec North
+        </a> e fotógrafo nas horas vagas.
       </p>
 
       <p>
