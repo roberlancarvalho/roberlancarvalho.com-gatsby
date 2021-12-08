@@ -22,47 +22,46 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-        allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                background
-                category
-                date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-                description
-                title
-                image
-              }
-              timeToRead
+      allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+        edges {
+          node {
+            fields {
+              slug
             }
-            next {
-                frontmatter {
-                  title
-                }
-                fields {
-                  slug
-                }
-              }
-              previous {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
+            frontmatter {
+              background
+              category
+              date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+              description
+              title
+              image
+            }
+            timeToRead
+          }
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+          previous {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
           }
         }
       }
-    `).then(result => {
+    }
+  `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
 
     posts.forEach(({ node, next, previous }) => {

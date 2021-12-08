@@ -14,7 +14,7 @@ const SearchPage = props => {
   return (
     <Layout>
       <SEO
-        title="Search"
+        title="Pesquisar"
         description="Faça sua busca e encontre artigos ou posts dentro do blog."
       />
       <Search algolia={algolia} />

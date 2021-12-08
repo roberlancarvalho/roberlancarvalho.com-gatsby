@@ -28,7 +28,19 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["artigo", "web", "css", "js", "html", "config", "dev", "outros"],
+          options:
+            [
+              "artigo",
+              "curiosidades",
+              "estudos",
+              "web",
+              "css",
+              "js",
+              "html",
+              "config",
+              "dev",
+              "outros",
+            ],
         }
       - {
           label: "Background",
@@ -37,6 +49,8 @@ collections:
           options:
             [
               { label: "Artigo", value: "#B31917" },
+              { label: "Curiosidades", value: "#24FFB5" },
+              { label: "Estudos", value: "#FAFAC5" },
               { label: "Web", value: "#8A7340" },
               { label: "CSS", value: "#2DA0C3" },
               { label: "JS", value: "#D6BA32" },

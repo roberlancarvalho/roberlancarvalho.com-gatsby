@@ -28,17 +28,19 @@ function BlogList(props) {
               timeToRead,
               fields: { slug },
             },
-          }) => (
-            <PostItem
-              slug={slug}
-              background={background}
-              category={category}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-            />
-          )
+          }) => {
+            return (
+              <PostItem
+                slug={slug}
+                background={background}
+                category={category}
+                date={date}
+                timeToRead={timeToRead}
+                title={title}
+                description={description}
+              />
+            )
+          }
         )}
       </S.ListWrapper>
 
