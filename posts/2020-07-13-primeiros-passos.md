@@ -3,8 +3,8 @@ title: Primeiros passos como programador
 description: Por onde começar na programação
 date: 2020-07-13 03:52:35
 thumbnail: /assets/img/programacao.jpg
-category: dev
-background: "#637a91"
+category: estudos
+background: "#FAFAC5"
 ---
 Para aqueles que almejam entrar na carreira de TI, mais precisamente na área de programação, é importante conhecer a área e principalmente se identificar.\
 Desenvolver ou programar não é para qualquer um, mas para quem realmente se identifica, e o mais importante, gosta disso - como qualquer outra profissão. \
