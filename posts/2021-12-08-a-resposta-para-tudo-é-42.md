@@ -26,8 +26,8 @@ E quando lhe pergunta qual o sentido da vida, do universo e tudo mais, ele deu u
 
 ## Mas porque 42?
 
-Ao ser questionado sobre porque 42, Douglas Adams reponde: 
-"A resposta é muito simples. Foi uma brincadeira. Tinha que ser um número, um ordinário, pequeno e eu escolhi esse. Representações binárias, base 13, macacos tibetanos são totalmente sem sentido. Eu sentei à minha mesa, olhei para o jardim e pensei “42 vai funcionar” e escrevi. Fim da história".
+> Ao ser questionado sobre porque 42, Douglas Adams reponde: 
+> "A resposta é muito simples. Foi uma brincadeira. Tinha que ser um número, um ordinário, pequeno e eu escolhi esse. Representações binárias, base 13, macacos tibetanos são totalmente sem sentido. Eu sentei à minha mesa, olhei para o jardim e pensei “42 vai funcionar” e escrevi. Fim da história".
 
 ## Teorias
 
@@ -46,6 +46,8 @@ Outra delas está ligada à programação:
 
 
 
+
+
 Há também um problema científico:
 
 Os cientistas têm se perguntado, desde a década de 50, se cada um dos números entre 0 e 100 poderiam ser representados pela soma de três cubos (um número elevado ao cubo é ele mesmo multiplicado três vezes).
@@ -56,4 +58,22 @@ Os cientistas encontraram o “x”, “y”, e “z” para todos os números m
 
 Isso porque todos os cubos são múltiplos de 9 ou estão a um número inteiro de um múltiplo de 9 na linha numérica. Então, os três cubos somados só podem resultar em números a três ou menos unidades distantes de múltiplos de 9.
 
-Impressionantemente, apenas 33 e 42 eram exceções: ambos estão a três unidades de distância de múltiplos de 9.
+Impressionantemente, apenas 33 e 42 eram exceções: ambos estão a três unidades de distância de múltiplos de 9.\
+\
+E existem as teorias relacionadas ao cinema/livros: 
+
+* #### Harry Potter
+
+Na página 42 do livro de J.K.Rowling A Pedra filosofal, Harry descobre a magia.
+
+* #### O Iluminado
+
+Além da aparição na camisa de Danny, o número se repete algumas vezes no filme. No hotel existem 42 carros estacionados; durante o filme, Wendy e Danny assistem ao filme ‘O verão de 42’; O quarto 237, se multiplicar os elementos, resulta em 42 (2x3x7).
+
+* #### Alice no Pais das Maravilhas
+
+A primeira versão de Alice no País das Maravilhas, de Lewis Carrol, contém 42 ilustrações originais.
+
+* #### Frankenstein
+
+  Na primeira versão do livro, de 1818, na página 42, Victor Frankestein revela que é capaz de criar vida.
