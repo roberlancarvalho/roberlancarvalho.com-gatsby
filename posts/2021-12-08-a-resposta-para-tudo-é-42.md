@@ -85,3 +85,7 @@ A primeira versão de Alice no País das Maravilhas, de Lewis Carrol, contém 4
 * #### Frankenstein
 
 Na primeira versão do livro, de 1818, na página 42, Victor Frankestein revela que é capaz de criar vida.
+
+
+
+Enfim, há diversas outras teorias à respeito do número 42. E você, o que acha dessas coisas? Comente abaixo.
