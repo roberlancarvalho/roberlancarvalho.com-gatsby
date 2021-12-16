@@ -5,7 +5,7 @@ description: Segundo O Guia do Mochileiro das Galáxias, 42 é a reposta para
 date: 2021-12-08 03:45:33
 thumbnail: /assets/img/unnamed.jpg
 category: artigo
-background: "#B31917"
+background: "#C03EFA"
 ---
 ## A raiz da questão
 
