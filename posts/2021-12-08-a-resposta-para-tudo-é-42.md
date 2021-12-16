@@ -24,6 +24,8 @@ No livro, ele fala sobre uma civilização que busca a resposta para todas as co
 E quando lhe pergunta qual o sentido da vida, do universo e tudo mais, ele deu um prazo de milhares de anos para fazer o seus cálculos e descobrir a resposta. E então, a reposta irônica foi apenas 42. 
 "Após sete milhões e meio de equações complexas e cálculos difíceis, retornou a resposta – 42".
 
+![](/assets/img/camiseta-estampa-42-guia-mochileiro-galaxias1.jpg)
+
 ## Mas porque 42?
 
 > Ao ser questionado sobre porque 42, Douglas Adams reponde: 
@@ -44,7 +46,13 @@ t=1272653,06 segundos = 21210,8843 minutos = 353,514739 horas = 14,7 dias de via
 
 Outra delas está ligada à programação:
 
+Como é sabido, Douglas Adams manjava de programação.
 
+Ok, se convertemos o Números ASCII para o texto,42 é o * (asterisco).
+
+Em programação o * é um símbolo de qualquer valor.
+
+Então Pequenos Gafanhotos,  o 42 equivaleria a qualquer coisa que você queria que seja.
 
 
 
@@ -76,4 +84,4 @@ A primeira versão de Alice no País das Maravilhas, de Lewis Carrol, contém 4
 
 * #### Frankenstein
 
-  Na primeira versão do livro, de 1818, na página 42, Victor Frankestein revela que é capaz de criar vida.
+Na primeira versão do livro, de 1818, na página 42, Victor Frankestein revela que é capaz de criar vida.
