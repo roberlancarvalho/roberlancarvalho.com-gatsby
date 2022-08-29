@@ -62,6 +62,18 @@ const portfolioList = [
     link: "https://roberlan-jogodavelha.netlify.app/",
     description: "Jogo Online",
   },
+  // {
+  //   title: "RP Finanças",
+  //   image: "jogodavelha.png",
+  //   link: "https://rpfinancas.com/",
+  //   description: "Site de Finanças",
+  // },
+  // {
+  //   title: "Calculadora RP Finanças",
+  //   image: "jogodavelha.png",
+  //   link: "https://calculadora.rpfinancas.com/",
+  //   description: "Calculadora Online",
+  // },
 ]
 
 const PortfolioPage = () => (
@@ -71,7 +83,9 @@ const PortfolioPage = () => (
     <MainContent>
       <h1>Portfólio</h1>
 
-      <p>Conheça alguns dos meus projetos</p>
+      <h4>Conheça alguns dos meus projetos</h4>
+      <p>Veja mais no <a target="_blank" href="https://github.com/roberlancarvalho/">Github</a> 
+        </p>
     </MainContent>
 
     {portfolioList.map(({ title, description, link, image }, i) => (

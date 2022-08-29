@@ -14,31 +14,31 @@ const AboutPage = () => (
     <MainContent>
       <h1>Sobre mim</h1>
       <p>
-        Olá! Sou Roberlan Oliveira de Carvalho, nasci em Mombaça-CE. Sou
-        desenvolvedor Full Stack; Empreendedor; Músico; Fundador da{" "}
+        Olá! Sou Roberlan Oliveira de Carvalho. Sou
+        desenvolvedor Full Stack; Empreendedor; Fundador da{" "}
         <a
           href="https://tecnorth.com.br/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Tec North
-        </a> e fotógrafo nas horas vagas.
+        </a> e músico nas horas vagas.
       </p>
 
       <p>
-        Graduando em Sistemas de Informação na Unicatólica de Quixadá. Como
+        Graduando em Sistemas de Informação pela Unicatólica de Quixadá. Como
         desenvolvedor web, sou apaxinado por tecnologia. Minhas habilidades são:
-        HTML, CSS, JavaScript, ReactJS, AngularJS React Native e NodeJS.
+        HTML, CSS, JavaScript, ReactJS, AngularJS, Java / Spring Boot, React Native, NodeJS e PostgreSQL.
         Trabalhar com TI, para mim não é um trabalho, é uma diversão.
       </p>
 
       <p>
-        Eu gosto de trabalhar em equipe. No meu tempo livre, gosto de ensinar
-        meus amigos e clientes sobre alguma coisa que aprendi, mais relacionado
-        à tecologia, acho que por isso nasceu esse blog. Adoro desafios.
+        Eu gosto de trabalhar em equipe, e no tempo livre, gosto de ensinar e aprender
+        com amigos e colegas sobre coisas da área, 
+        acho que por isso nasceu esse blog. Adoro desafios.
       </p>
       <p>
-        Desenvolvo sites, lojas virtuais, portais e aplicações web, utilizando
+        Desenvolvo sites, lojas, portais e aplicações web em geral, utilizando
         algumas das principais tecnologias do mercado.
       </p>
 
@@ -47,14 +47,15 @@ const AboutPage = () => (
       <ul>
         <li>HTML e Template Languages;</li>
         <li>CSS (Stylus, Sass, Less, PostCSS);</li>
-        <li>Javascript;</li>
-        <li>Java;</li>
-        <li>ReactJS / Redux / Flux;</li>
+        <li>Javascript / Typescript;</li>
+        <li>ReactJS;</li>
         <li>AngularJS;</li>
         <li>React Native;</li>
         <li>NodeJS.</li>
+        <li>Java;</li>
         <li>Spring Boot.</li>
         <li>Postgre SQL.</li>
+        <li>Oracle SQL.</li>
       </ul>
 
       <p>Tem alguma ideia interessante? Entre em contato comigo!</p>
