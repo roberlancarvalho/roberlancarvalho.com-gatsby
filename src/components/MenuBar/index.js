@@ -4,8 +4,9 @@ import { Home } from '@styled-icons/boxicons-solid/Home'
 import { SearchAlt2 as Search } from '@styled-icons/boxicons-regular/SearchAlt2'
 import { CircleHalfFill } from '@styled-icons/fluentui-system-filled/CircleHalfFill'
 import { ChevronUpCircle } from '@styled-icons/boxicons-solid/ChevronUpCircle'
-import { Codepen } from '@styled-icons/boxicons-logos/Codepen'
-import { AboutDotMe } from '@styled-icons/simple-icons/AboutDotMe'
+import { DevTo } from '@styled-icons/boxicons-logos/DevTo'
+import { AboutDotMe } from '@styled-icons/simple-icons/Aboutdotme'
+
 // import { LightBulb as Light } from '@styled-icons/entypo/LightBulb'
 import { Menu } from '@styled-icons/boxicons-regular/Menu'
 
@@ -87,7 +88,7 @@ const MenuBar = ({ setIsMenuOpen, isMenuOpen }) => {
                         activeClassName="active"
                     >
                         <S.MenuBarItem onClick={() => GA.portfolioClickTrack()}>
-                            <Codepen />
+                            <DevTo />
                             {/* <S.MenuBarNotification /> */}
                         </S.MenuBarItem>
                     </S.MenuBarLink>
