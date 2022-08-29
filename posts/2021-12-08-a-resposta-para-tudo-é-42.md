@@ -9,7 +9,6 @@ background: "#C03EFA"
 ---
 ## A raiz da questão
 
-
 Segundo Douglas Adams, autor da "trilogia de cinco" de O Guia do Mochileiro das Galáxias, 42 é a reposta para todas as perguntas, como o próprio afirma.
 Mas de onde ele tirou isso?
 
@@ -28,7 +27,10 @@ E quando lhe pergunta qual o sentido da vida, do universo e tudo mais, ele deu u
 
 ## Mas porque 42?
 
-> Ao ser questionado sobre porque 42, Douglas Adams reponde: 
+
+
+Ao ser questionado sobre porque 42, Douglas Adams reponde: 
+
 > "A resposta é muito simples. Foi uma brincadeira. Tinha que ser um número, um ordinário, pequeno e eu escolhi esse. Representações binárias, base 13, macacos tibetanos são totalmente sem sentido. Eu sentei à minha mesa, olhei para o jardim e pensei “42 vai funcionar” e escrevi. Fim da história".
 
 ## Teorias
@@ -48,13 +50,11 @@ Outra delas está ligada à programação:
 
 Como é sabido, Douglas Adams manjava de programação.
 
-Ok, se convertemos o Números ASCII para o texto,42 é o * (asterisco).
+Quando convertemos o números ASCII para texto, 42 é o * (asterisco).
 
 Em programação o * é um símbolo de qualquer valor.
 
 Então Pequenos Gafanhotos,  o 42 equivaleria a qualquer coisa que você queria que seja.
-
-
 
 Há também um problema científico:
 
@@ -85,7 +85,5 @@ A primeira versão de Alice no País das Maravilhas, de Lewis Carrol, contém 4
 * #### Frankenstein
 
 Na primeira versão do livro, de 1818, na página 42, Victor Frankestein revela que é capaz de criar vida.
-
-
 
 Enfim, há diversas outras teorias à respeito do número 42. E você, o que acha dessas coisas? Comente abaixo.
