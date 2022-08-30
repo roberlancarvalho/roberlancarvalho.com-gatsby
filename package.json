@@ -51,6 +51,8 @@
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "prettier": "2.0.5"
   },
   "keywords": [
