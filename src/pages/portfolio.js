@@ -84,8 +84,16 @@ const PortfolioPage = () => (
       <h1>Portfólio</h1>
 
       <h4>Conheça alguns dos meus projetos</h4>
-      <p>Veja mais no <a target="_blank" href="https://github.com/roberlancarvalho/">Github</a> 
-        </p>
+      <p>
+        Veja mais no{" "}
+        <a
+          href="https://github.com/roberlancarvalho/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+      </p>
     </MainContent>
 
     {portfolioList.map(({ title, description, link, image }, i) => (
