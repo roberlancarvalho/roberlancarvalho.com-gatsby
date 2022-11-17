@@ -4,6 +4,9 @@
   "description": "My personal site on roberlancarvalho.com",
   "version": "0.2.0",
   "author": "Roberlan Carvalho <roberlan.carvalho@gmail.com>",
+  "workspaces": [
+    "packages/*"
+  ],
   "dependencies": {
     "algoliasearch": "^4.8.6",
     "dotenv": "^8.1.0",
@@ -74,4 +77,5 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
+
 }
