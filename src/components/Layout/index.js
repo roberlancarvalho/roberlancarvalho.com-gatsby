@@ -12,10 +12,10 @@ import MenuBar from "../MenuBar"
 import * as S from './styled'
 
 const Layout = ({ children }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const { site } = useStaticQuery(
-    graphql`
+    const { site } = useStaticQuery(
+        graphql `
       query {
         site {
           siteMetadata {
@@ -26,33 +26,37 @@ const Layout = ({ children }) => {
         }
       }
     `
-  )
+    )
 
-  return (
-    <S.LayoutWrapper>
-      <GlobalStyles />
-      <TransitionPortal level="top">
-        <Profile
-          title={site.siteMetadata.title}
-          position={site.siteMetadata.position}
-          isMobileHeader={true}
-        />
-        <Sidebar
-          site={site.siteMetadata}
-          setIsMenuOpen={setIsMenuOpen}
-          isMenuOpen={isMenuOpen}
-        />
-      </TransitionPortal>
-      <S.LayoutMain>{children}</S.LayoutMain>
-      <TransitionPortal level="top">
-        <MenuBar setIsMenuOpen={setIsMenuOpen} isMenuOpen={isMenuOpen} />
-      </TransitionPortal>
-    </S.LayoutWrapper>
-  )
+    return ( <
+        S.LayoutWrapper >
+        <
+        GlobalStyles / >
+        <
+        TransitionPortal level = "top" >
+        <
+        Profile title = { site.siteMetadata.title }
+        position = { site.siteMetadata.position }
+        isMobileHeader = { true }
+        /> <
+        Sidebar site = { site.siteMetadata }
+        setIsMenuOpen = { setIsMenuOpen }
+        isMenuOpen = { isMenuOpen }
+        /> <
+        /TransitionPortal> <
+        S.LayoutMain > { children } < /S.LayoutMain> <
+        TransitionPortal level = "top" >
+        <
+        MenuBar setIsMenuOpen = { setIsMenuOpen }
+        isMenuOpen = { isMenuOpen }
+        /> <
+        /TransitionPortal> <
+        /S.LayoutWrapper>
+    )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Layout

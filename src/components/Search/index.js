@@ -22,17 +22,18 @@ const Search = props => {
 
   return (
     <S.SearchWrapper>
+      {" "}
       {props.algolia && props.algolia.appId && (
         <>
           <InstantSearch
             searchClient={searchClient}
             indexName={props.algolia.indexName}
           >
-            <Configure hitsPerPage={200} distinct />
-            <SearchBox
-              autoFocus={true}
-              translations={{ placeholder: "Pesquisar..." }}
-            />
+            <Configure hitsPerPage={200} distinct />{" "}
+	{/* eslint-disable-next-line jsx-a11y/no-autofocus */}
+	<SearchBox autoFocus={true} translations={{ placeholder: "Pesquisar..." }} />
+
+           {" "}
             <Stats
               translations={{
                 stats(nbHits, timeSpentMS) {
@@ -41,15 +42,14 @@ const Search = props => {
                     : `${nbHits} resultados encontrados em ${timeSpentMS}ms`
                 },
               }}
-            />
-            <Hits hitComponent={Hit} />
-          </InstantSearch>
+            />{" "}
+            <Hits hitComponent={Hit} />{" "}
+          </InstantSearch>{" "}
           <S.SearchTitle>
-            Powered by Algolia
-            <S.AlgoliaIcon />
-          </S.SearchTitle>
+            Powered by Algolia <S.AlgoliaIcon />
+          </S.SearchTitle>{" "}
         </>
-      )}
+      )}{" "}
     </S.SearchWrapper>
   )
 }

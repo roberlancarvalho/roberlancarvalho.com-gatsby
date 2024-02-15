@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import SEO from '../components/seo'
 import GlobalStyles from '../styles/global'
 
-const Container = styled.section`
+const Container = styled.section `
   align-items: center;
   background-image: url('../assets/img/john-404.gif');
   background-position: bottom left;
@@ -27,7 +27,7 @@ const Container = styled.section`
   }
 `
 
-const Title = styled.h1`
+const Title = styled.h1 `
   background: var(--background);
   color: var(--texts);
   font-size: 120px;
@@ -36,13 +36,14 @@ const Title = styled.h1`
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 `
 
-const Text = styled.p`
+const Text = styled.p `
   background: var(--background);
   color: var(--texts);
   font-family: Courier, monospace;
 `
 
-const Button = styled(Link)`
+const Button = styled(Link)
+`
   background: var(--background);
   border: 1px solid var(--borders);
   border-radius: 6px;
@@ -62,14 +63,17 @@ const Button = styled(Link)`
   }
 `
 
-const NotFoundPage = () => (
-  <Container>
-    <SEO title="404: Não encontrada" />
-    <GlobalStyles />
-    <Title>404</Title>
-    <Text>Ué? Página não encontrada.</Text>
-    <Button to="/">De volta ao blog!</Button>
-  </Container>
+const NotFoundPage = () => ( <
+    Container >
+    <
+    SEO title = "404: Não encontrada" / >
+    <
+    GlobalStyles / >
+    <
+    Title > 404 < /Title> <
+    Text > Ué ? Página não encontrada. < /Text> <
+    Button to = "/" > De volta ao blog! < /Button> <
+    /Container>
 )
 
 export default NotFoundPage
