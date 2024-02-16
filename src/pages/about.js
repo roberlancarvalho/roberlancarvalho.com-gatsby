@@ -14,8 +14,8 @@ const AboutPage = () => (
     <MainContent>
       <h1> Sobre mim </h1>{" "}
       <p>
-        Olá! Sou Roberlan Oliveira de Carvalho. Sou desenvolvedor Full Stack;
-        Empreendedor; Fundador da{" "}
+        Olá! Sou Roberlan Oliveira de Carvalho. Sou desenvolvedor Full Stack na
+        Unimed Fortaleza e Ponce Tech; Empreendedor; Fundador da{" "}
         <a
           href="https://technorth.com.br/"
           target="_blank"
@@ -23,23 +23,23 @@ const AboutPage = () => (
         >
           Tech North{" "}
         </a>{" "}
-        e músico nas horas vagas.{" "}
+        gamer e músico nas horas vagas.{" "}
       </p>{" "}
       <p>
-        Graduando em Sistemas de Informação pela Unicatólica de Quixadá.Como
-        desenvolvedor web, sou apaxinado por tecnologia.Minhas habilidades são:
-        HTML, CSS, JavaScript, ReactJS, AngularJS, Java / Spring Boot, React
-        Native, NodeJS e PostgreSQL.Trabalhar com TI, para mim não é um
-        trabalho, é uma diversão.{" "}
+        Graduando em Sistemas de Informação pela Unicatólica de Quixadá. Como
+        desenvolvedor de softwares, sou apaxinado por tecnologia. Algumas das minhas
+        habilidades são: HTML, CSS, JavaScript, ReactJS, AngularJS, Java /
+        Spring Boot, React Native, NodeJS, Oracle e PostgreSQL. Trabalhar com
+        isso, para mim não é um trabalho, é uma diversão.{" "}
       </p>{" "}
       <p>
-        Eu gosto de trabalhar em equipe, e no tempo livre, gosto de ensinar e
+        Gosto de trabalhar em equipe, e no tempo livre, gosto de ensinar e
         aprender com amigos e colegas sobre coisas da área, acho que por isso
-        nasceu esse blog.Adoro desafios.{" "}
+        nasceu esse blog.{" "}
       </p>{" "}
       <p>
-        Desenvolvo sites, lojas, portais e aplicações web em geral, utilizando
-        algumas das principais tecnologias do mercado.{" "}
+        Desenvolvo e gerencio projetos de softwares, utilizando algumas das
+        principais tecnologias do mercado.{" "}
       </p>{" "}
       <h2> Habilidades: </h2>{" "}
       <ul>
@@ -47,11 +47,11 @@ const AboutPage = () => (
         <li> CSS(Stylus, Sass, Less, PostCSS); </li>{" "}
         <li> Javascript / Typescript; </li> <li> ReactJS; </li>{" "}
         <li> AngularJS; </li> <li> React Native; </li> <li> NodeJS. </li>{" "}
-        <li> Java; </li> <li> Spring Boot. </li> <li> Postgre SQL. </li>{" "}
-        <li> Oracle SQL. </li>{" "}
+        <li> Java; </li> <li> Spring Boot; </li> <li> Postgre SQL; </li>{" "}
+        <li> Oracle. </li>{" "}
       </ul>{" "}
-      <p> Tem alguma ideia interessante ? Entre em contato comigo! </p>{" "}
-      <h2> Contato : </h2>{" "}
+      <p> Tem alguma ideia interessante? Entre em contato comigo! </p>{" "}
+      <h2> Contato: </h2>{" "}
       <p>
         Você pode entrar em contato comigo através de qualquer uma das minhas
         redes sociais:
