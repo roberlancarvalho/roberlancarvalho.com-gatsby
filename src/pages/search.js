@@ -6,7 +6,7 @@ import Search from "../components/Search"
 
 const algolia = {
   appId: process.env.GATSBY_ALGOLIA_APP_ID,
-  searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_ONLY_KEY,
+  searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
   indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
 }
 
@@ -17,7 +17,7 @@ const SearchPage = props => {
         title="Pesquisar"
         description="Faça sua busca e encontre artigos ou posts dentro do blog."
       />
-      <Search algolia={algolia} />
+      <Search algolia={algolia} />{" "}
     </Layout>
   )
 }

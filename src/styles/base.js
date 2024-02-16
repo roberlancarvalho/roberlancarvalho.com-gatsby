@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import media from 'styled-media-query'
 
-export const PostHeader = styled.header`
+export const PostHeader = styled.header `
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
@@ -47,6 +47,7 @@ export const PostDate = styled.p`
     padding: 0 1rem;
   `}
 `
+
 
 export const MainContent = styled.section`
   margin: auto;

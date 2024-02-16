@@ -14,22 +14,22 @@ const AboutPage = () => (
     <MainContent>
       <h1> Sobre mim </h1>{" "}
       <p>
-        Olá! Sou Roberlan Oliveira de Carvalho. Sou desenvolvedor Full Stack na
-        Unimed Fortaleza e Ponce Tech; Empreendedor; Fundador da{" "}
+        Olá! Sou Roberlan Carvalho. Sou desenvolvedor Full Stack na Unimed
+        Fortaleza e Ponce Tech; Empreendedor; Fundador da{" "}
         <a
           href="https://technorth.com.br/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tech North{" "}
-        </a>{" "}
-        gamer e músico nas horas vagas.{" "}
+          Tech North
+        </a>
+        , gamer e músico nas horas vagas.{" "}
       </p>{" "}
       <p>
         Graduando em Sistemas de Informação pela Unicatólica de Quixadá. Como
-        desenvolvedor de softwares, sou apaxinado por tecnologia. Algumas das minhas
-        habilidades são: HTML, CSS, JavaScript, ReactJS, AngularJS, Java /
-        Spring Boot, React Native, NodeJS, Oracle e PostgreSQL. Trabalhar com
+        desenvolvedor de softwares, sou apaxinado por tecnologia. Algumas das
+        minhas habilidades são: HTML, CSS, JavaScript, ReactJS, AngularJS, Java
+        / Spring Boot, React Native, NodeJS, Oracle e PostgreSQL. Trabalhar com
         isso, para mim não é um trabalho, é uma diversão.{" "}
       </p>{" "}
       <p>
