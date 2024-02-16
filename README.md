@@ -26,18 +26,18 @@ Para executar este blog localmente, siga os passos abaixo:
 1. **Clone o repositório**
 
    ```shell
-   git clone https://github.com/seu_usuario/seu_repositorio.git```
+   git clone https://github.com/seu_usuario/seu_repositorio.git
 
 2. **Instale as dependências**
 
-```shell
-  cd seu_repositorio/
-  npm install```
+   ```shell
+     cd seu_repositorio/
+     npm install
 
 
 3. **Inicie o servidor de desenvolvimento**
 
-```shell
-Copy code
-gatsby develop
-Agora, você pode acessar http://localhost:8000 no seu navegador.```
+   ```shell
+   Copy code
+   gatsby develop
+   Agora, você pode acessar http://localhost:8000 no seu navegador.
