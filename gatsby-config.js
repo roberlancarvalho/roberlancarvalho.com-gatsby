@@ -105,12 +105,11 @@ module.exports = {
             resolve: `gatsby-plugin-algolia-search`,
             options: {
                 appId: process.env.GATSBY_ALGOLIA_APP_ID,
-                apiKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
+                apiKey: process.env.ALGOLIA_ADMIN_KEY, // Use a chave de Admin aqui
                 indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
                 queries,
-                chunkSize: 10000, // default: 1000
-                enablePartialUpdates: true, // default: false
-                // Manter sempre o plugin do Algolia na versão 0.5.0
+                chunkSize: 10000,
+                enablePartialUpdates: true,
             },
         },
         {
