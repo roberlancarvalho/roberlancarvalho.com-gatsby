@@ -40,4 +40,25 @@ Para executar este blog localmente, siga os passos abaixo:
    ```shell
    Copy code
    gatsby develop
+   
    Agora, você pode acessar http://localhost:8000 no seu navegador.
+
+4. **Como Contribuir**
+Sua contribuição é bem-vinda! Se você tem sugestões para melhorar o blog ou deseja contribuir com conteúdo:
+
+Faça um fork do projeto.
+Crie uma branch para sua feature (git checkout -b feature/SuaFeature).
+Faça commit de suas alterações (git commit -m 'Adicionando uma nova feature').
+Faça push para a branch (git push origin feature/SuaFeature).
+Abra um Pull Request.
+
+📫 Contato
+
+Se você deseja entrar em contato comigo, pode me encontrar nas seguintes plataformas:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/roberlancarvalho/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/roberlancarvalho/)
+
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:roberlan.carvalho@gmail.com)
+
